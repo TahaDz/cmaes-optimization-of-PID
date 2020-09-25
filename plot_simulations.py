@@ -30,7 +30,7 @@ def plot_simulation(simulation_time, initial_theta, pid):
         if test_rise:
             break
 
-    print(times[rise]) # print the rise time
+    print("rise time = ",times[rise]) # print the rise time
 
     ###############################################
     # plot the simulation
